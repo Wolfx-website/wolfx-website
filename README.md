@@ -1,16 +1,28 @@
-## Hi there 👋
+# WolfX Official Website
 
-<!--
-**Wolfx-website/wolfx-website** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is the official WolfX website — a modern, fast, and responsive platform built with React and TailwindCSS.  
+WolfX is a premium forex education brand focused on helping traders achieve consistency, mastery, and long-term profitability.
 
-Here are some ideas to get you started:
+## 🚀 Features
+- Clean and modern UI
+- Fast loading and mobile responsive
+- Easy to customize and scale
+- Built for Vercel deployment
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📦 Tech Used
+- React (Vite)
+- TailwindCSS
+- JavaScript
+- Vercel Hosting
+
+## 📂 How to Run Locally
+1. Clone the repo  
+2. Run `npm install`  
+3. Run `npm run dev`  
+
+## 🌐 Live Website
+Deployed with Vercel (link will appear after deployment)
+
+---
+
+Built by **WolfX** — Trade Smart. Think Like a Pro. Win Like a Wolf.
