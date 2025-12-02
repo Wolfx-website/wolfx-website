@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wolfx Trading</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    header img {
+      width: 120px;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+      position: relative;
+      background: linear-gradient(90deg, rgba(0,0,0,0.95), rgba(0,0,0,0.7)), url('https://source.unsplash.com/1600x900/?trading,stocks') center/cover no-repeat;
+      animation: heroAnimation 10s infinite alternate;
+    }
+    @keyframes heroAnimation {
+      0% { background-position: center top; }
+      100% { background-position: center bottom; }
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 20px #ffcc00;
+    }
+    .hero p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: auto;
+      opacity: 0.9;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 40px;
+      background: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 20px #ffcc00;
+      transition: 0.3s;
+    }
+    .cta-btn:hover {
+      transform: scale(1.05);
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .services, .contact {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .service-item {
+      margin-bottom: 30px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      opacity: 0.8;
+    }
+    .dashboard {
+      position: relative;
+      height: 400px;
+      background: url('https://source.unsplash.com/1600x400/?chart,finance') center/cover no-repeat;
+      margin-bottom: 40px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .dashboard-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffcc00;
+      font-size: 32px;
+      font-weight: bold;
+      text-shadow: 0 0 15px #ffcc00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://source.unsplash.com/100x100/?wolf" alt="Wolfx Logo" />
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>Master The Markets With Wolfx</h1>
+    <p>Your gateway to simplified, professional, and profitable forex education. Learn, trade, and grow with confidence.</p>
+    <a href="#contact" class="cta-btn">Join Wolfx</a>
+  </section>
+
+  <section class="dashboard">
+    <div class="dashboard-overlay">Live Trading Dashboard</div>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-item">
+      <h3>Forex Mentorship</h3>
+      <p>Personalized guidance to grow your trading skills from beginner to expert.</p>
+    </div>
+    <div class="service-item">
+      <h3>Automated Strategies</h3>
+      <p>Custom automated trading solutions to maximize efficiency and profits.</p>
+    </div>
+    <div class="service-item">
+      <h3>Market Analysis</h3>
+      <p>Daily insights and technical analysis to make informed trading decisions.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out to us via Telegram or Phone:</p>
+    <p>Telegram: <a href="https://t.me/wolfxtrading" style="color:#ffcc00;">@wolfxtrading</a></p>
+    <p>Phone: <a href="tel:+1234567890" style="color:#ffcc00;">+1 234 567 890</a></p>
+  </section>
+
+  <footer>
+    © 2025 Wolfx Trading — All Rights Reserved
+  </footer>
+</body>
+</html>
